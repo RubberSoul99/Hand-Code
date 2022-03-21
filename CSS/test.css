@@ -1,0 +1,39 @@
+body {
+	background: lightgoldenrodyellow;
+}
+
+h1 {
+		font-size: 30px;
+		color: teal;
+	}
+
+h2 {
+	color: red;
+	font-size: 20px;
+}
+
+h2 {
+	color: green;
+}
+
+/*w when two rule set styles confilct, it is the last one that takes precedent.*/
+
+.big {
+	font-size: 60px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/* all elements with a big and uppercase class will be navy*/
+
+.big.uppercase {
+	color: navy;
+}
+
+/* all span elements within a h1 element will be violet*/
+
+h1 span{
+	color: violet;
+}
