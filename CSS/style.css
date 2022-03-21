@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family: Helvetica, Arial, sans-serif;
+	background-color: #fffefc;
 }
 
 header {
@@ -30,6 +31,11 @@ main {
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 15px;
+}
+
+main div {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 main h2, h4 {
@@ -69,5 +75,32 @@ footer{
 	padding: 20px;
 }
 
+footer p {
+	margin: 0;
+	padding-bottom: 0;
+}
 
+span {
+	background-color: white;
+	color: black;
+	padding: 5px;
+	border-radius: 20px;
+}
 
+span:hover {
+	background-color: white;
+	color: black;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+span a{
+	text-decoration: none;
+	color: black;
+}
+
+span a:hover{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
